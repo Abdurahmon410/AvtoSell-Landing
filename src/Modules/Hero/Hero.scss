@@ -1,0 +1,75 @@
+.hero{
+    height: 90vh;
+    padding-top: 68px;
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 96px;
+            font-weight: 700;
+            line-height: 91.87px;
+            margin-bottom: 45px;
+        }
+        .hero-title-span{
+            color: #03AB00;
+        }
+        .hero-subtitle{
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 41.15px;
+            text-align: center;
+            width: 100%;
+            max-width: 711px;
+            margin-bottom: 121px;
+        }
+        .hero-end{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          
+            .hero-create-btn{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 30.62px;
+                color: #000;
+                background-color: #03AB00;
+                border-radius: 30px;
+                border: none;
+                padding: 28px 22px;
+                cursor: pointer;
+                border: 2px solid#03AB00;
+                transition: all 0.4s;
+
+                &:hover{
+                    background-color: transparent;
+                    color: #03AB00;
+                    transition: all 0.4s;
+                }
+            }
+            .hero-join-btn{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 30.62px;
+                color: #03AB00;
+                border: 7px solid #000000;
+                padding: 28px 22px;
+                border-radius: 30px;
+                background-color: transparent;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover{
+                    background-color: #03AB00;
+                    transition: all 0.4s;
+                    color: #000;
+                    border: 7px solid #03AB00;
+
+                    
+                }
+
+            }
+        }
+    }
+}
